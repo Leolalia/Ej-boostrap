@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	margin:0 auto;}
+#logo{
+	height:100px;
+	margin:10px 0 10px 10px;
+	}
+.icono{
+	height:35px;
+	width:auto;
+	margin:0;
+	}
+.col-center{
+    margin: 0 auto;
+	text-align:center;
+}.col-center1{
+    margin: 0 auto;
+	text-align:center;
+	padding:5px 0 5px 0;
+}
+#img1{
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	}
+#img2{
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	}
+#img3{
+	text-align:center;
+	padding:0;
+	}
+#redes{
+	padding:0 0 5px 5px;
+	}
+a:hover { 
+    background-color: white;
+}
+.buscar{
+	background-color:white;
+	}
+.lista{
+	padding-top:20px;
+	}
+.bordes{
+	border-radius:0 0 10px 10px;
+}
+.bordes1{
+	border-radius:10px 10px 0 0 ;
+}
+#bordes{
+	border-radius:0 10px 0 0;
+}
+#bordes1{
+	border-radius:10px 10px 10px 10px ;
+}
+@media (min-width: 768px) {
+#redes{
+	padding:80px 0 0 0;
+	}
+}
